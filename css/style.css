@@ -67,6 +67,7 @@
     color: white;
     font-size: 18px;
     margin: 20px;
+    border-radius: 5px;
 }
 
 .title2 {
@@ -103,4 +104,89 @@
 
 .gym-icon {
     width: 50px;
+}
+
+.about-container {
+    display: flex;
+    background-color: black;
+    color: white;
+    /*justify-content: space-evenly;
+     align-items: center; */
+}
+
+.about-left {
+    width: 700px;
+    /* border: 1px solid red; */
+}
+
+.workout-image {
+    display: flex;
+    margin-top: 50px;
+}
+
+.workout-image img {
+    width: 300px;
+    height: 550px;
+    transform: skewY(-15deg);
+}
+
+.about-right {
+    width: 700px;
+    /* border: 1px solid red; */
+}
+
+.btn-text {
+    text-decoration: none;
+    color: white;
+}
+
+.workout-container {
+    width: 650px;
+    height: 200px;
+    background-image: url("/images/shape/Group_33094_1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.workout-title h1 {
+    color: white;
+}
+
+.workout-button button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+}
+
+.services-container {
+    margin-top: 70px;
+}
+
+.service1 {
+    width: 400px;
+    height: 500px;
+    border: 1px solid gray;
+}
+
+.batch {
+    position: relative;
+}
+
+.batch-img {
+    width: 70px;
+    position: absolute;
+    top: -30px;
+    right: -20px;
+}
+
+.service-img img {
+    width: 100%;
 }
